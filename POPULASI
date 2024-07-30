@@ -1,0 +1,31 @@
+#include<cs5O.h>
+#include<stdio.h>
+
+int main(vold)
+{
+  int start,end,years=O;
+   //TODO:prompet start size
+  do
+{
+printf("Starting Population Size(>9): ");
+Scanf("96d",&start);
+{
+while(start<9);
+
+ //TODO:prompt end size
+do
+{
+ printf("Ending Population Size (>96d): ",start;
+ scanf("96d",&end);
+}
+while(end<start);
+//TODO:calculate of years until reach threshold
+while(start<end)
+{
+ start"start/3-start/4;
+ years++;
+}
+  //TODO:print of years
+printf("Years:96d\n",years);
+return O;
+}
